@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <style>
+    :root {
+      --bg-start: #f7b267;
+      --bg-end: #f4845f;
+      --card-bg: rgba(255, 255, 255, 0.82);
+      --primary: #5a4242;
+      --text: #555;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, var(--bg-start), var(--bg-end));
+      text-align: center;
+      padding: 30px;
+      color: var(--text);
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      padding: 40px 30px;
+      border-radius: 20px;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+    }
+
+    h1, h2 {
+      color: var(--primary);
+      margin: 20px 0;
+    }
+
+    h1 {
+      font-size: 2.1rem;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+    }
+
+    p {
+      color: var(--text);
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin: 10px 0;
+    }
+
+    .profile-photo {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #fff;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+      margin: 20px auto;
+      display: block;
+    }
+
+    .skill-list {
+      font-weight: bold;
+      letter-spacing: 0.04em;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>My Portfolio</h1>
+
+    <img
+      class="profile-photo"
+      src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=80"
+      alt="Profile picture of Adznel J. Madjuri"
+    />
+
+    <h2>Hello, I'm Adznel J. Madjuri</h2>
+    <p>
+      I am an Information Technology student at MSU-SULU College. I love programming,
+      web development, and networking.
+    </p>
+
+    <h2>About Me</h2>
+    <p>
+      I enjoy learning new technologies and creating simple websites.
+    </p>
+
+    <h2>My Skills</h2>
+    <p class="skill-list">HTML | CSS | JavaScript | C++</p>
+
+    <h2>My Projects</h2>
+    <p>Personal Portfolio Website</p>
+
+    <h2>Contact Me</h2>
+    <p>Email: madjuriadznel@gmail.com</p>
+
+    <h2>Personal Info</h2>
+    <p>Adznel J. Madjuri</p>
+    <p>Alat, Jolo, Sulu</p>
+    <p>Male</p>
+  </div>
+</body>
+</html>
